@@ -70,7 +70,7 @@ export default function Dashboard() {
 
     return (
         <>
-                <Navbar bg='light' className='allign-items-center justify-content-center border-bottom border-dark pt-2 mt-2 '>
+                <Navbar bg='white' className='allign-items-center justify-content-center border-bottom border-dark pt-2 mt-2 '>
                     <Container>
                         <Navbar.Brand className='justify-content-middle'>
                             <Navbar.Text>
@@ -94,7 +94,7 @@ export default function Dashboard() {
                                     <Button variant='outline-danger' onClick={() => handleDeleteNote(item.id)}>
                                         Usuń notatkę
                                     </Button>
-                                    {item.content}
+                                    {" "+item.content}
                                     
                                 </div>
 
